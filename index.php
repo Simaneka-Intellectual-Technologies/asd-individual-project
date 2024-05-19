@@ -1255,8 +1255,8 @@
         VerticalAdImage = document.querySelector('.vertical-strip-img'),
         DarkSquareAdAnchor = document.querySelector('.dark-square-anchor'),
         DarkSquareAdImage = document.querySelector('.dark-square-img'),
-        DarkSquareAdAnchor = document.querySelector('.insta-ad-anchor'),
-        DarkSquareAdImage = document.querySelector('.insta-ad-img'),
+        InstaAdAnchor = document.querySelector('.insta-ad-anchor'),
+        InstaAdImage = document.querySelector('.insta-ad-img'),
         ThickHorizontalAdAnchor = document.querySelector('.thick-horizontal-anchor'),
         ThickHorizontalAdImage = document.querySelector('.thick-horizontal-img')
 
@@ -1289,8 +1289,9 @@
 
       loadAd('Horizontal Strip', '', headerAdImage, headerAdAnchor);
       loadAd('Light Square', '', middleStoryAdImage, middleStoryAdAnchor);
-      loadAd('Vertical Strip', '', VerticalAdImage, VerticalAdAnchor);
+      loadAd('Vertical Strip', 'games', VerticalAdImage, VerticalAdAnchor);
       loadAd('Dark Square', '', DarkSquareAdImage, DarkSquareAdAnchor);
+      loadAd('Dark Square', '', InstaAdImage, InstaAdAnchor);
       loadAd('Thick Horizontal', '', ThickHorizontalAdImage, ThickHorizontalAdAnchor);
     };
   </script>
